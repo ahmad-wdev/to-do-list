@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List App</title>
+
+    <!-- External Stylesheets (CSS & Icon Library) -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Main Application Card Wrapper -->
+    <main class="card">
+      <div class="container">
+        <!-- App Headers & Introductions -->
+        <h1 class="heading">Make your To-Do List</h1>
+        <p class="text">Add your tasks here <i class="fa-solid fa-pen"></i></p>
+
+        <!-- Task Input Submission Layout -->
+        <div class="input">
+          <input type="text" placeholder="Enter task" />
+          <button type="submit" class="add">Add task</button>
+        </div>
+        <!-- Dynamic Task List Container -->
+        <p>Your tasks</p>
+        <ul class="items">
+          <!--<li>
+            <p class="item">exercise</p>
+            <div class="items-btn">
+              <button class="check">
+                <i class="fa-solid fa-check fa-lg" style="color: green"></i>
+              </button>
+              <button class="edit"><i class="fa-solid fa-pen fa-lg" style="color: blue" ></i></button>
+              <button class="delete">
+                <i class="fa-solid fa-trash fa-lg" style="color: red"></i>
+              </button>
+            </div>
+          </li>-->
+        </ul>
+        <!-- Global Actions Button -->
+        <button class="clear">Clear all</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
